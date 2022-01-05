@@ -389,13 +389,13 @@ body.sticky .sidebar, body.sticky .sidebar-toggle {
 .markdown-section ul.task-list > li {
   list-style-type: none;
 }
-body.content-close .sidebar {
+body.close .sidebar {
   transform: translateX(-20rem)
 }
-body.content-close .sidebar-toggle {
+body.close .sidebar-toggle {
   width: auto
 }
-body.content-close .content {
+body.close .content {
   left: 0
 }
 @media print {
@@ -445,22 +445,22 @@ body.content-close .content {
     padding: 30px 30px 10px 10px;
   }
 
-  body.content-close .sidebar {
+  body.close .sidebar {
     transform: translateX(20rem);
   }
 
-  body.content-close .sidebar-toggle {
+  body.close .sidebar-toggle {
     background-color: rgba(255, 255, 255, 0.8);
     transition: 1s background-color;
     width: 284px;
     padding: 10px;
   }
 
-  body.content-close .content {
+  body.close .content {
     transform: translateX(20rem);
   }
 
-  body.content-close .app-nav, body.content-close .github-corner {
+  body.close .app-nav, body.close .github-corner {
     display: none;
   }
 
