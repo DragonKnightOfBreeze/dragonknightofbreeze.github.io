@@ -1,4 +1,8 @@
-.image-note {
+.readme-portrait-image{
+  width: 400px;
+  height: 400px;
+}
+.readme-portrait-image-note {
   font-size: 10px !important;
   font-style: italic !important;
   color: grey !important;
