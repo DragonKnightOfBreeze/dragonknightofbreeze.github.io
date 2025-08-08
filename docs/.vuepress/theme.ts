@@ -10,7 +10,7 @@ export default hopeTheme({
   author: {
     name: "DragonKnightOfBreeze",
     url: "https://github.com/DragonKnightOfBreeze",
-    email: "dk_breeze@qq.com",
+    email: "dk_breeze@qq.com"
   },
   pageInfo: [],
 
@@ -25,7 +25,7 @@ export default hopeTheme({
   navbarLayout: {
     start: ["Brand"],
     center: [],
-    end: ["Links", "Language", "Repo", "Outlook", "Search"],
+    end: ["Links", "Language", "Repo", "Outlook", "Search"]
   },
 
   locales: {
@@ -33,42 +33,42 @@ export default hopeTheme({
       navbar: navbarZh,
       sidebar: sidebarZh,
       metaLocales: {
-        editLink: "在 GitHub 上编辑此页",
-      },
+        editLink: "在 GitHub 上编辑此页"
+      }
     },
     "/en/": {
       navbar: navbarEn,
       sidebar: sidebarEn,
       metaLocales: {
-        editLink: "Edit this page on GitHub",
-      },
-    },
+        editLink: "Edit this page on GitHub"
+      }
+    }
   },
 
   plugins: {
     redirect: {
       autoLocale: true,
-      switchLocale: 'direct',
+      switchLocale: "direct",
       localeConfig: {
-        '/zh/': ['zh-CN', 'zh-TW', 'zh'],
-        '/en/': ['en-US', 'en-UK', 'en'],
-      },
+        "/zh/": ["zh-CN", "zh-TW", "zh"],
+        "/en/": ["en-US", "en-UK", "en"]
+      }
     },
     //note that fulltext search is not supported by @vuepress/plugin-search (only for titles)
     search: {
       maxSuggestions: 20,
       locales: {
-        '/zh/': { placeholder: '搜索', },
-        '/en/': { placeholder: 'Search', },
-      },
+        "/zh/": { placeholder: "搜索" },
+        "/en/": { placeholder: "Search" }
+      }
     },
     mdEnhance: {
       gfm: true,
       breaks: false,
       attrs: true,
       alert: true,
-      footnote: true,
+      footnote: true
     }
-  },
+  }
 })
 

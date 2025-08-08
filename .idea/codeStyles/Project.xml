@@ -24,5 +24,95 @@
         <option name="ITERATION_ELEMENTS_WRAPPING" value="chop_down_if_not_single" />
       </formatting-settings>
     </DBN-SQL>
+    <HTMLCodeStyleSettings>
+      <option name="HTML_DO_NOT_INDENT_CHILDREN_OF" value="html,thead,tbody,tfoot" />
+    </HTMLCodeStyleSettings>
+    <JavaCodeStyleSettings>
+      <option name="REPLACE_NULL_CHECK" value="false" />
+      <option name="REPLACE_SUM" value="false" />
+    </JavaCodeStyleSettings>
+    <JetCodeStyleSettings>
+      <option name="LINE_BREAK_AFTER_MULTILINE_WHEN_ENTRY" value="false" />
+      <option name="NAME_COUNT_TO_USE_STAR_IMPORT" value="1" />
+      <option name="NAME_COUNT_TO_USE_STAR_IMPORT_FOR_MEMBERS" value="1" />
+      <option name="BLANK_LINES_BEFORE_DECLARATION_WITH_COMMENT_OR_ANNOTATION_ON_SEPARATE_LINE" value="0" />
+    </JetCodeStyleSettings>
+    <yaml>
+      <option name="INDENT_SEQUENCE_VALUE" value="false" />
+    </yaml>
+    <codeStyleSettings language="HTML">
+      <indentOptions>
+        <option name="INDENT_SIZE" value="2" />
+        <option name="CONTINUATION_INDENT_SIZE" value="4" />
+        <option name="TAB_SIZE" value="2" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="JAVA">
+      <option name="RIGHT_MARGIN" value="1000" />
+      <option name="LINE_COMMENT_AT_FIRST_COLUMN" value="false" />
+      <option name="BLOCK_COMMENT_AT_FIRST_COLUMN" value="false" />
+      <option name="WRAP_ON_TYPING" value="0" />
+      <indentOptions>
+        <option name="CONTINUATION_INDENT_SIZE" value="4" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="JSON">
+      <indentOptions>
+        <option name="CONTINUATION_INDENT_SIZE" value="4" />
+        <option name="TAB_SIZE" value="2" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="JavaScript">
+      <option name="BLOCK_COMMENT_AT_FIRST_COLUMN" value="false" />
+      <option name="LINE_COMMENT_ADD_SPACE" value="false" />
+      <indentOptions>
+        <option name="INDENT_SIZE" value="2" />
+        <option name="TAB_SIZE" value="2" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="Markdown">
+      <option name="RIGHT_MARGIN" value="1000" />
+      <indentOptions>
+        <option name="INDENT_SIZE" value="2" />
+        <option name="CONTINUATION_INDENT_SIZE" value="4" />
+        <option name="TAB_SIZE" value="2" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="TypeScript">
+      <option name="BLOCK_COMMENT_AT_FIRST_COLUMN" value="false" />
+      <option name="LINE_COMMENT_ADD_SPACE" value="false" />
+      <indentOptions>
+        <option name="INDENT_SIZE" value="2" />
+        <option name="TAB_SIZE" value="2" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="XML">
+      <option name="RIGHT_MARGIN" value="1000" />
+      <option name="LINE_COMMENT_AT_FIRST_COLUMN" value="false" />
+      <option name="BLOCK_COMMENT_AT_FIRST_COLUMN" value="false" />
+      <indentOptions>
+        <option name="INDENT_SIZE" value="2" />
+        <option name="CONTINUATION_INDENT_SIZE" value="4" />
+        <option name="TAB_SIZE" value="2" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="kotlin">
+      <option name="RIGHT_MARGIN" value="1000" />
+      <option name="LINE_COMMENT_AT_FIRST_COLUMN" value="false" />
+      <option name="BLOCK_COMMENT_AT_FIRST_COLUMN" value="false" />
+      <option name="WRAP_ON_TYPING" value="0" />
+      <indentOptions>
+        <option name="CONTINUATION_INDENT_SIZE" value="4" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="yaml">
+      <option name="LINE_COMMENT_AT_FIRST_COLUMN" value="false" />
+      <option name="LINE_COMMENT_ADD_SPACE" value="true" />
+      <option name="LINE_COMMENT_ADD_SPACE_ON_REFORMAT" value="true" />
+      <option name="SPACE_WITHIN_BRACKETS" value="false" />
+      <indentOptions>
+        <option name="KEEP_INDENTS_ON_EMPTY_LINES" value="true" />
+      </indentOptions>
+    </codeStyleSettings>
   </code_scheme>
 </component>

@@ -9,18 +9,15 @@
   padding-right: 2rem;
 }
 
-//custom styles
+// hide brand on mobile
 
-.portrait-image {
-  @media (min-device-height: 1080px) {
-    width: 480px;
-    height: 480px;
-  }
-  @media (min-device-width: 1440px) {
-    width: 720px;
-    height: 720px;
+.vp-brand {
+  @media (max-width: 959px) {
+    display: none;
   }
 }
+
+// custom styles
 
 .portrait-image-note {
   font-size: 12px !important;
