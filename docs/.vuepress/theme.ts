@@ -3,7 +3,6 @@ import { navbarEn, navbarZh, sidebarEn, sidebarZh } from "./configs/index.js";
 
 export default hopeTheme({
   hostname: "https://windea.icu",
-  iconAssets: "fontawesome-with-brands",
   logo: null, // no logo
   repo: "DragonKnightOfBreeze/dragonknightofbreeze.github.io",
 
@@ -12,8 +11,8 @@ export default hopeTheme({
     url: "https://github.com/DragonKnightOfBreeze",
     email: "dk_breeze@qq.com"
   },
-  pageInfo: [],
 
+  pageInfo: [],
   lastUpdated: false,
   contributors: false,
   editLink: false,
@@ -21,6 +20,7 @@ export default hopeTheme({
   nextLink: false,
 
   pure: true,
+  focus: false,
   breadcrumb: false,
   navbarLayout: {
     start: ["Brand"],
@@ -51,10 +51,10 @@ export default hopeTheme({
       switchLocale: "direct",
       localeConfig: {
         "/zh/": ["zh-CN", "zh-TW", "zh"],
-        "/en/": ["en-US", "en-UK", "en"]
+        "/en/": ["en-US", "en-UK", "en"],
       }
     },
-    //note that fulltext search is not supported by @vuepress/plugin-search (only for titles)
+    // note that fulltext search is not supported by @vuepress/plugin-search (only for titles)
     search: {
       maxSuggestions: 20,
       locales: {
@@ -62,13 +62,13 @@ export default hopeTheme({
         "/en/": { placeholder: "Search" }
       }
     },
-    mdEnhance: {
-      gfm: true,
-      breaks: false,
-      attrs: true,
-      alert: true,
-      footnote: true
-    }
-  }
-})
+  },
 
+  markdown: {
+    gfm: true,
+    breaks: false,
+    attrs: true,
+    alert: true,
+    footnote: true,
+  },
+})
