@@ -11,6 +11,7 @@
     "@vuepress/bundler-vite": "2.0.0-rc.25",
     "@vuepress/plugin-redirect": "2.0.0-rc.112",
     "@vuepress/plugin-search": "2.0.0-rc.112",
+    "artplayer": "^5.2.5",
     "vue": "^3.5.20",
     "vuepress": "2.0.0-rc.25",
     "vuepress-theme-hope": "2.0.0-rc.94",

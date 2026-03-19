@@ -17,6 +17,9 @@ importers:
       '@vuepress/plugin-search':
         specifier: 2.0.0-rc.112
         version: 2.0.0-rc.112(vuepress@2.0.0-rc.25(@vuepress/bundler-vite@2.0.0-rc.25(@types/node@24.3.1)(sass-embedded@1.92.0)(sass@1.92.0))(vue@3.5.21))
+      artplayer:
+        specifier: ^5.2.5
+        version: 5.4.0
       sass-embedded:
         specifier: ^1.92.0
         version: 1.92.0
@@ -28,7 +31,7 @@ importers:
         version: 2.0.0-rc.25(@vuepress/bundler-vite@2.0.0-rc.25(@types/node@24.3.1)(sass-embedded@1.92.0)(sass@1.92.0))(vue@3.5.21)
       vuepress-theme-hope:
         specifier: 2.0.0-rc.94
-        version: 2.0.0-rc.94(@vuepress/plugin-search@2.0.0-rc.112(vuepress@2.0.0-rc.25(@vuepress/bundler-vite@2.0.0-rc.25(@types/node@24.3.1)(sass-embedded@1.92.0)(sass@1.92.0))(vue@3.5.21)))(markdown-it@14.1.0)(sass-embedded@1.92.0)(sass@1.92.0)(vuepress@2.0.0-rc.25(@vuepress/bundler-vite@2.0.0-rc.25(@types/node@24.3.1)(sass-embedded@1.92.0)(sass@1.92.0))(vue@3.5.21))
+        version: 2.0.0-rc.94(@vuepress/plugin-search@2.0.0-rc.112(vuepress@2.0.0-rc.25(@vuepress/bundler-vite@2.0.0-rc.25(@types/node@24.3.1)(sass-embedded@1.92.0)(sass@1.92.0))(vue@3.5.21)))(artplayer@5.4.0)(markdown-it@14.1.0)(sass-embedded@1.92.0)(sass@1.92.0)(vuepress@2.0.0-rc.25(@vuepress/bundler-vite@2.0.0-rc.25(@types/node@24.3.1)(sass-embedded@1.92.0)(sass@1.92.0))(vue@3.5.21))
 
 packages:
 
@@ -1091,6 +1094,9 @@ packages:
   argparse@2.0.1:
     resolution: {integrity: sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==}
 
+  artplayer@5.4.0:
+    resolution: {integrity: sha512-2B+plbx8N2yNsjK4nJU3+EOG8TULm1LRZk/QPkWRAMEX2Ee/MSnZG/WJYz8kcoZxZuLKcQ3uXifqLuPxZOH29A==}
+
   autoprefixer@10.4.21:
     resolution: {integrity: sha512-O+A6LWV5LDHSJD3LjHYoNi4VLsj/Whi7k6zG12xTYaU4cQ8oxQGckXNX8cRHK5yOZ/ppVHe0ZBXGzSV9jXdVbQ==}
     engines: {node: ^10 || ^12 || >=14}
@@ -1557,6 +1563,9 @@ packages:
 
   oniguruma-to-es@4.3.3:
     resolution: {integrity: sha512-rPiZhzC3wXwE59YQMRDodUwwT9FZ9nNBwQQfsd1wfdtlKEyCdRV0avrTcSZ5xlIvGRVPd/cx6ZN45ECmS39xvg==}
+
+  option-validator@2.0.6:
+    resolution: {integrity: sha512-tmZDan2LRIRQyhUGvkff68/O0R8UmF+Btmiiz0SmSw2ng3CfPZB9wJlIjHpe/MKUZqyIZkVIXCrwr1tIN+0Dzg==}
 
   ora@8.2.0:
     resolution: {integrity: sha512-weP+BZ8MVNnlCm8c0Qdc1WSWq4Qn7I+9CJGm7Qali6g44e/PUzbjNqJX5NJ9ljlNMosfJvg1fKEGILklK9cwnw==}
@@ -3295,6 +3304,10 @@ snapshots:
 
   argparse@2.0.1: {}
 
+  artplayer@5.4.0:
+    dependencies:
+      option-validator: 2.0.6
+
   autoprefixer@10.4.21(postcss@8.5.6):
     dependencies:
       browserslist: 4.25.4
@@ -3791,6 +3804,10 @@ snapshots:
       regex: 6.0.1
       regex-recursion: 6.0.2
 
+  option-validator@2.0.6:
+    dependencies:
+      kind-of: 6.0.3
+
   ora@8.2.0:
     dependencies:
       chalk: 5.6.0
@@ -4228,7 +4245,7 @@ snapshots:
       '@vue/server-renderer': 3.5.21(vue@3.5.21)
       '@vue/shared': 3.5.21
 
-  vuepress-plugin-components@2.0.0-rc.94(sass-embedded@1.92.0)(sass@1.92.0)(vuepress@2.0.0-rc.25(@vuepress/bundler-vite@2.0.0-rc.25(@types/node@24.3.1)(sass-embedded@1.92.0)(sass@1.92.0))(vue@3.5.21)):
+  vuepress-plugin-components@2.0.0-rc.94(artplayer@5.4.0)(sass-embedded@1.92.0)(sass@1.92.0)(vuepress@2.0.0-rc.25(@vuepress/bundler-vite@2.0.0-rc.25(@types/node@24.3.1)(sass-embedded@1.92.0)(sass@1.92.0))(vue@3.5.21)):
     dependencies:
       '@stackblitz/sdk': 1.11.0
       '@vuepress/helper': 2.0.0-rc.112(vuepress@2.0.0-rc.25(@vuepress/bundler-vite@2.0.0-rc.25(@types/node@24.3.1)(sass-embedded@1.92.0)(sass@1.92.0))(vue@3.5.21))
@@ -4241,6 +4258,7 @@ snapshots:
       vuepress: 2.0.0-rc.25(@vuepress/bundler-vite@2.0.0-rc.25(@types/node@24.3.1)(sass-embedded@1.92.0)(sass@1.92.0))(vue@3.5.21)
       vuepress-shared: 2.0.0-rc.94(vuepress@2.0.0-rc.25(@vuepress/bundler-vite@2.0.0-rc.25(@types/node@24.3.1)(sass-embedded@1.92.0)(sass@1.92.0))(vue@3.5.21))
     optionalDependencies:
+      artplayer: 5.4.0
       sass: 1.92.0
       sass-embedded: 1.92.0
     transitivePeerDependencies:
@@ -4275,7 +4293,7 @@ snapshots:
     transitivePeerDependencies:
       - typescript
 
-  vuepress-theme-hope@2.0.0-rc.94(@vuepress/plugin-search@2.0.0-rc.112(vuepress@2.0.0-rc.25(@vuepress/bundler-vite@2.0.0-rc.25(@types/node@24.3.1)(sass-embedded@1.92.0)(sass@1.92.0))(vue@3.5.21)))(markdown-it@14.1.0)(sass-embedded@1.92.0)(sass@1.92.0)(vuepress@2.0.0-rc.25(@vuepress/bundler-vite@2.0.0-rc.25(@types/node@24.3.1)(sass-embedded@1.92.0)(sass@1.92.0))(vue@3.5.21)):
+  vuepress-theme-hope@2.0.0-rc.94(@vuepress/plugin-search@2.0.0-rc.112(vuepress@2.0.0-rc.25(@vuepress/bundler-vite@2.0.0-rc.25(@types/node@24.3.1)(sass-embedded@1.92.0)(sass@1.92.0))(vue@3.5.21)))(artplayer@5.4.0)(markdown-it@14.1.0)(sass-embedded@1.92.0)(sass@1.92.0)(vuepress@2.0.0-rc.25(@vuepress/bundler-vite@2.0.0-rc.25(@types/node@24.3.1)(sass-embedded@1.92.0)(sass@1.92.0))(vue@3.5.21)):
     dependencies:
       '@vuepress/helper': 2.0.0-rc.112(vuepress@2.0.0-rc.25(@vuepress/bundler-vite@2.0.0-rc.25(@types/node@24.3.1)(sass-embedded@1.92.0)(sass@1.92.0))(vue@3.5.21))
       '@vuepress/plugin-active-header-links': 2.0.0-rc.112(vuepress@2.0.0-rc.25(@vuepress/bundler-vite@2.0.0-rc.25(@types/node@24.3.1)(sass-embedded@1.92.0)(sass@1.92.0))(vue@3.5.21))
@@ -4314,7 +4332,7 @@ snapshots:
       chokidar: 4.0.3
       vue: 3.5.21
       vuepress: 2.0.0-rc.25(@vuepress/bundler-vite@2.0.0-rc.25(@types/node@24.3.1)(sass-embedded@1.92.0)(sass@1.92.0))(vue@3.5.21)
-      vuepress-plugin-components: 2.0.0-rc.94(sass-embedded@1.92.0)(sass@1.92.0)(vuepress@2.0.0-rc.25(@vuepress/bundler-vite@2.0.0-rc.25(@types/node@24.3.1)(sass-embedded@1.92.0)(sass@1.92.0))(vue@3.5.21))
+      vuepress-plugin-components: 2.0.0-rc.94(artplayer@5.4.0)(sass-embedded@1.92.0)(sass@1.92.0)(vuepress@2.0.0-rc.25(@vuepress/bundler-vite@2.0.0-rc.25(@types/node@24.3.1)(sass-embedded@1.92.0)(sass@1.92.0))(vue@3.5.21))
       vuepress-plugin-md-enhance: 2.0.0-rc.94(markdown-it@14.1.0)(sass-embedded@1.92.0)(sass@1.92.0)(vuepress@2.0.0-rc.25(@vuepress/bundler-vite@2.0.0-rc.25(@types/node@24.3.1)(sass-embedded@1.92.0)(sass@1.92.0))(vue@3.5.21))
       vuepress-shared: 2.0.0-rc.94(vuepress@2.0.0-rc.25(@vuepress/bundler-vite@2.0.0-rc.25(@types/node@24.3.1)(sass-embedded@1.92.0)(sass@1.92.0))(vue@3.5.21))
     optionalDependencies:

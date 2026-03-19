@@ -1,17 +1,21 @@
-# The Legend Of The Lightless Shadow
+# The Lore of the tower
 
-There lies the world of eternal shadows. At the end of a street invaded by perpetual night, a spire stands tall. Those who climb the tower, can travel to the world of light. But rumors say that a terrifying demon lurks there, devouring the shadows of visiting travelers and stealing their forms. One day, a blind girl came to the tower. She was afflicted with an incurable disease, her life flickering like a candle in the wind.
+Weary seekers who tread the path, these words are spoken unto you.
 
-"I want to see the last light..."
+Here we inscribe the revelations from the old era, the truths and realities of this land.
 
-This is a natural wish for those living in the world of shadows. The girl climbed the spiral staircase. The path felt endless.
+Ascend to the tower’s peak and open the Book of Prophecy, for within it are recorded all our discoveries and foresights.
 
-Her hand suddenly touched something. It was warm.
+Pay no heed to the mists and riddles of the past, for we shall reveal you a radiant horizon.
 
-"Ah, how beautiful..."
+![](/images/the_lore_of_the_tower.png)
 
-The demon was puzzled by the girl's expression. Had it ever been gazed at like this before? In her sightless eyes, there was indeed a reflection of light.
+<p class="image-note">
+Artist: <a href="https://www.pixiv.net/users/429077">MISSILE228</a>
+Pixiv ID: <a href="https://www.pixiv.net/artworks/97926118">97926118</a>
+</p>
 
-"—I will become your light."
-
-![](/images/the_lightless_shadow.png)
+<p class="image-note">
+勇気あるものは剣を抜き、時計におさめなさい<br>
+止まった時は動き出すでしょう
+</p>

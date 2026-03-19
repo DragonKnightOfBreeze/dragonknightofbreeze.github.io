@@ -1,9 +1,9 @@
-import { hopeTheme } from "vuepress-theme-hope";
-import { navbarEn, navbarZh, sidebarEn, sidebarZh } from "./configs/index.js";
+import {hopeTheme} from "vuepress-theme-hope";
+import {navbarEn, navbarZh, sidebarEn, sidebarZh} from "./configs/index.js";
 
 export default hopeTheme({
   hostname: "https://windea.icu",
-  logo: null, // no logo
+  favicon: "/images/favicon.png",
   repo: "DragonKnightOfBreeze/dragonknightofbreeze.github.io",
 
   author: {
@@ -46,6 +46,17 @@ export default hopeTheme({
   },
 
   plugins: {
+    components: {
+      components: [
+        "ArtPlayer"
+      ],
+      componentOptions: {
+        artPlayer: {
+          muted: true // muted by default
+        }
+      }
+    },
+
     redirect: {
       autoLocale: true,
       switchLocale: "direct",
@@ -58,8 +69,8 @@ export default hopeTheme({
     search: {
       maxSuggestions: 20,
       locales: {
-        "/zh/": { placeholder: "搜索" },
-        "/en/": { placeholder: "Search" }
+        "/zh/": {placeholder: "搜索"},
+        "/en/": {placeholder: "Search"}
       }
     },
   },

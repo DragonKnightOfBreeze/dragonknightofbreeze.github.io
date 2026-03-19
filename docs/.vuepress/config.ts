@@ -9,11 +9,11 @@ export default defineUserConfig({
   locales: {
     "/zh/": {
       lang: "zh-CN",
-      title: "传说"
+      title: "高塔的传说"
     },
     "/en/": {
       lang: "en-US",
-      title: "传说"
+      title: "The Lore of the tower"
     }
   },
   bundler: viteBundler(),
