@@ -1,4 +1,4 @@
-# The Lore of the tower
+# The Lore of the Tower
 
 Weary seekers who tread the path, these words are spoken unto you.
 

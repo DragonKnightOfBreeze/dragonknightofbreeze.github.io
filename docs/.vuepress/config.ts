@@ -13,7 +13,7 @@ export default defineUserConfig({
     },
     "/en/": {
       lang: "en-US",
-      title: "The Lore of the tower"
+      title: "The Lore of the Tower"
     }
   },
   bundler: viteBundler(),

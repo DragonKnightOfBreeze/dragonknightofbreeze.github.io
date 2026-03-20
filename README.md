@@ -1,4 +1,4 @@
-# The Lore of the dragon knight
+# The Lore of the Dragon Knight
 
 The dragon knight has just learned the name of the dragon she has tamed.
 
